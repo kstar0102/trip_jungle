@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="Gradle: com.squareup.picasso:picasso:2.8@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/30eeb52aa195bfdc56348e4266d15ac0/transformed/jetified-picasso-2.8/res" />
+      <root url="file://$PROJECT_DIR$/../../../../storage-samples-main/FileProvider/.gradle/caches/transforms-3/30eeb52aa195bfdc56348e4266d15ac0/transformed/jetified-picasso-2.8/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../storage-samples-main/FileProvider/.gradle/caches/transforms-3/30eeb52aa195bfdc56348e4266d15ac0/transformed/jetified-picasso-2.8/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../storage-samples-main/FileProvider/.gradle/caches/transforms-3/30eeb52aa195bfdc56348e4266d15ac0/transformed/jetified-picasso-2.8/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../../storage-samples-main/FileProvider/.gradle/caches/transforms-3/30eeb52aa195bfdc56348e4266d15ac0/transformed/jetified-picasso-2.8/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../storage-samples-main/FileProvider/.gradle/caches/transforms-3/30eeb52aa195bfdc56348e4266d15ac0/transformed/jetified-picasso-2.8/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../../storage-samples-main/FileProvider/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.8/fa4a3fe29a221c6dbcfa039c420d9c29001ed074/picasso-2.8-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../storage-samples-main/FileProvider/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.8/fa4a3fe29a221c6dbcfa039c420d9c29001ed074/picasso-2.8-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../storage-samples-main/FileProvider/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.8/30f580e7864d10645a9b68ac2045dd38c9ed52c/picasso-2.8-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../storage-samples-main/FileProvider/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.8/30f580e7864d10645a9b68ac2045dd38c9ed52c/picasso-2.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

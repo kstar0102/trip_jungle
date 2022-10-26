@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TripJungle.iml" filepath="$PROJECT_DIR$/.idea/modules/TripJungle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TripJungle.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TripJungle.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TripJungle.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TripJungle.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TripJungle.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TripJungle.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TripJungle.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TripJungle.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/speechutils/TripJungle.speechutils.iml" filepath="$PROJECT_DIR$/.idea/modules/speechutils/TripJungle.speechutils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/speechutils/TripJungle.speechutils.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/speechutils/TripJungle.speechutils.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/speechutils/TripJungle.speechutils.main.iml" filepath="$PROJECT_DIR$/.idea/modules/speechutils/TripJungle.speechutils.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/speechutils/TripJungle.speechutils.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/speechutils/TripJungle.speechutils.unitTest.iml" />
+    </modules>
+  </component>
+</project>
