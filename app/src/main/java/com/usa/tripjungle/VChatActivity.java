@@ -123,8 +123,8 @@ public class VChatActivity extends AppCompatActivity {
         Log.e("test");
         if (mRecorder != null) {
             new Thread(() -> {
-//                byte[] recordBytes = mRecorder.getCompleteRecording();
-                byte[] recordBytes = hexStringToByteArray("e04fd020ea3a6910a2d808002b30309d");
+                byte[] recordBytes = mRecorder.getCompleteRecording();
+//                byte[] recordBytes = hexStringToByteArray("e04fd020ea3a6910a2d808002b30309d");
                 mRecorder.stop();
                 mRecorder.release();
                 mRecorder = null;
