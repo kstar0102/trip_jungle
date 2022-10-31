@@ -2,15 +2,15 @@
   <library name="Gradle: com.google.maps:google-maps-services:2.1.0">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/../../../../storage-samples-main/FileProvider/.gradle/caches/modules-2/files-2.1/com.google.maps/google-maps-services/2.1.0/a7b671893283d520bb275aa7458747285a0a9e73/google-maps-services-2.1.0.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../../storage-samples-main/FileProvider/.gradle/caches/modules-2/files-2.1/com.google.maps/google-maps-services/2.1.0/a7b671893283d520bb275aa7458747285a0a9e73/google-maps-services-2.1.0.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.maps/google-maps-services/2.1.0/a7b671893283d520bb275aa7458747285a0a9e73/google-maps-services-2.1.0.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../../../../storage-samples-main/FileProvider/.gradle/caches/modules-2/files-2.1/com.google.maps/google-maps-services/2.1.0/2aa3bc55c244fe309908127db20d437f3dac815f/google-maps-services-2.1.0-javadoc.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../../storage-samples-main/FileProvider/.gradle/caches/modules-2/files-2.1/com.google.maps/google-maps-services/2.1.0/2aa3bc55c244fe309908127db20d437f3dac815f/google-maps-services-2.1.0-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.maps/google-maps-services/2.1.0/2aa3bc55c244fe309908127db20d437f3dac815f/google-maps-services-2.1.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/../../../../storage-samples-main/FileProvider/.gradle/caches/modules-2/files-2.1/com.google.maps/google-maps-services/2.1.0/a8e041586736705e25c9847da90f69c8d9482a0d/google-maps-services-2.1.0-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../../storage-samples-main/FileProvider/.gradle/caches/modules-2/files-2.1/com.google.maps/google-maps-services/2.1.0/a8e041586736705e25c9847da90f69c8d9482a0d/google-maps-services-2.1.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.maps/google-maps-services/2.1.0/a8e041586736705e25c9847da90f69c8d9482a0d/google-maps-services-2.1.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

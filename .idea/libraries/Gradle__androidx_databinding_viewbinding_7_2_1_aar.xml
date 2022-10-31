@@ -6,13 +6,13 @@
       <root url="file://$PROJECT_DIR$/../../../../storage-samples-main/FileProvider/.gradle/caches/transforms-3/667698bf1412259cbf3db37b63679a1f/transformed/jetified-viewbinding-7.2.1/res" />
       <root url="file://$PROJECT_DIR$/../../../../storage-samples-main/FileProvider/.gradle/caches/transforms-3/667698bf1412259cbf3db37b63679a1f/transformed/jetified-viewbinding-7.2.1/AndroidManifest.xml" />
       <root url="jar://$PROJECT_DIR$/../../../../storage-samples-main/FileProvider/.gradle/caches/transforms-3/667698bf1412259cbf3db37b63679a1f/transformed/jetified-viewbinding-7.2.1/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../../../storage-samples-main/FileProvider/.gradle/caches/transforms-3/667698bf1412259cbf3db37b63679a1f/transformed/jetified-viewbinding-7.2.1/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../../../../../storage-samples-main/FileProvider/.gradle/caches/transforms-3/667698bf1412259cbf3db37b63679a1f/transformed/jetified-viewbinding-7.2.1/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/667698bf1412259cbf3db37b63679a1f/transformed/jetified-viewbinding-7.2.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/667698bf1412259cbf3db37b63679a1f/transformed/jetified-viewbinding-7.2.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/../../../../storage-samples-main/FileProvider/.gradle/caches/modules-2/files-2.1/androidx.databinding/viewbinding/7.2.1/eb67a946aa3c6c8b1aefd1458d67089c2a3fdb/viewbinding-7.2.1-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../../storage-samples-main/FileProvider/.gradle/caches/modules-2/files-2.1/androidx.databinding/viewbinding/7.2.1/eb67a946aa3c6c8b1aefd1458d67089c2a3fdb/viewbinding-7.2.1-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.databinding/viewbinding/7.2.1/eb67a946aa3c6c8b1aefd1458d67089c2a3fdb/viewbinding-7.2.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

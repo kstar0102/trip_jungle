@@ -27,7 +27,6 @@ public class Event {
         this.payload = payload;
     }
 
-
     public static class Header{
         String namespace;
         String name;

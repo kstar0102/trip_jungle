@@ -1,6 +1,7 @@
 package com.usa.tripjungle;
 
 import android.Manifest;
+import android.annotation.SuppressLint;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.Handler;
@@ -15,12 +16,12 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
 import com.amazon.identity.auth.device.api.workflow.RequestContext;
-import com.usa.tripjungle.connect.ApiResponse;
 import com.usa.tripjungle.connect.AvsItem;
 import com.usa.tripjungle.connect.AvsSpeakItem;
 import com.usa.tripjungle.connect.AvsTemplateItem;
 import com.usa.tripjungle.connect.ConnectManager;
 import com.usa.tripjungle.util.AudioPlayer;
+import com.usa.tripjungle.util.DateTimeUtil;
 import com.usa.tripjungle.util.LoginManager;
 
 import java.io.File;
@@ -45,6 +46,7 @@ public class VChatActivity extends AppCompatActivity {
     boolean isRecording = false;
     private static final int AUDIO_RATE = 16000;
 
+    @SuppressLint("ClickableViewAccessibility")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,20 +58,20 @@ public class VChatActivity extends AppCompatActivity {
         mConnectManager = new ConnectManager(this);
         mAudioPlayer = new AudioPlayer(this);
 
-//        LoginManager.doLogin(mRequestContext, new LoginManager.LoginCallback() {
-//            @Override
-//            public void onSuccess() {
-////                setLoginStatus();
-//
-//                long expireTime = LoginManager.getExpireTime();
-//                Toast.makeText(VChatActivity.this, "Login Success, Token Expires At " + DateTimeUtil.getDateString(expireTime), Toast.LENGTH_LONG).show();
-//            }
-//
-//            @Override
-//            public void onFail() {
-//                Toast.makeText(VChatActivity.this, "Login Fail", Toast.LENGTH_LONG).show();
-//            }
-//        });
+        LoginManager.doLogin(mRequestContext, new LoginManager.LoginCallback() {
+            @Override
+            public void onSuccess() {
+//                setLoginStatus();
+
+                long expireTime = LoginManager.getExpireTime();
+                Toast.makeText(VChatActivity.this, "Login Success, Token Expires At " + DateTimeUtil.getDateString(expireTime), Toast.LENGTH_LONG).show();
+            }
+
+            @Override
+            public void onFail() {
+                Toast.makeText(VChatActivity.this, "Login Fail", Toast.LENGTH_LONG).show();
+            }
+        });
 
         txtStatus = findViewById(R.id.txtStatus);
         recode = findViewById(R.id.recode);
@@ -120,36 +122,36 @@ public class VChatActivity extends AppCompatActivity {
 //        mProcessingView.setVisibility(View.VISIBLE);
         Log.e("test");
         if (mRecorder != null) {
-            new Thread(new Runnable() {
-                @Override
-                public void run() {
-                    final byte[] recordBytes = mRecorder.getCompleteRecording();
-
-                    mRecorder.stop();
-                    mRecorder.release();
-                    mRecorder = null;
-                    isRecording = false;
-                    mConnectManager.sendRequest(recordBytes, new ConnectManager.Callback() {
-
-                        @Override
-                        public void onResponse(final ApiResponse res) {
-                            runOnUiThread(new Runnable() {
-                                @Override
-                                public void run() {
-                                    if (res.getResponseCode() == 400) {
-                                        Toast.makeText(VChatActivity.this, res.getResponseCode() + " " + res.getMessage(), Toast.LENGTH_LONG).show();
-                                    } else if (res.getResponseCode() != 200) {
-                                        Toast.makeText(VChatActivity.this, res.getResponseCode() + " " + res.getMessage(), Toast.LENGTH_LONG).show();
-                                    } else {
-                                        onAlexaResponse(res.getAvsItems());
-                                    }
-                                }
-                            });
+            new Thread(() -> {
+//                byte[] recordBytes = mRecorder.getCompleteRecording();
+                byte[] recordBytes = hexStringToByteArray("e04fd020ea3a6910a2d808002b30309d");
+                mRecorder.stop();
+                mRecorder.release();
+                mRecorder = null;
+                isRecording = false;
+                mConnectManager.sendRequest(recordBytes, res -> runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        if (res.getResponseCode() == 400) {
+                            Toast.makeText(VChatActivity.this, res.getResponseCode() + " " + res.getMessage(), Toast.LENGTH_LONG).show();
+                        } else if (res.getResponseCode() != 200) {
+                            Toast.makeText(VChatActivity.this, res.getResponseCode() + " " + res.getMessage(), Toast.LENGTH_LONG).show();
+                        } else {
+                            onAlexaResponse(res.getAvsItems());
                         }
-                    });
-                }
+                    }
+                }));
             }).start();
         }
+    }
+    public static byte[] hexStringToByteArray(String s) {
+        int len = s.length();
+        byte[] data = new byte[len / 2];
+        for (int i = 0; i < len; i += 2) {
+            data[i / 2] = (byte) ((Character.digit(s.charAt(i), 16) << 4)
+                    + Character.digit(s.charAt(i+1), 16));
+        }
+        return data;
     }
     private void onAlexaResponse(List<AvsItem> res) {
         if (res != null) {
@@ -160,17 +162,11 @@ public class VChatActivity extends AppCompatActivity {
                 if (item instanceof AvsTemplateItem) {
                     final AvsTemplateItem templateItem = (AvsTemplateItem) item;
                     if (templateItem.isBodyType()) {
-                        new Handler().postDelayed(new Runnable() {
-                            @Override
-                            public void run() {
-                            }
+                        new Handler().postDelayed(() -> {
                         }, 100);
                     }
                     if (templateItem.isWeatherType()) {
-                        new Handler().postDelayed(new Runnable() {
-                            @Override
-                            public void run() {
-                            }
+                        new Handler().postDelayed(() -> {
                         }, 100);
                     }
 
@@ -195,7 +191,7 @@ public class VChatActivity extends AppCompatActivity {
             listPermissionsNeeded.add(Manifest.permission.RECORD_AUDIO);
         }
         if (!listPermissionsNeeded.isEmpty()) {
-            ActivityCompat.requestPermissions(this, listPermissionsNeeded.toArray(new String[listPermissionsNeeded.size()]), 1);
+            ActivityCompat.requestPermissions(this, listPermissionsNeeded.toArray(new String[0]), 1);
         }
     }
 
@@ -238,15 +234,20 @@ public class VChatActivity extends AppCompatActivity {
     private boolean deleteDir(File dir) {
         if (dir != null && dir.isDirectory()) {
             String[] children = dir.list();
-            for (int i = 0; i < children.length; i++) {
-                boolean success = deleteDir(new File(dir, children[i]));
-                if (!success) {
-                    return false;
+            if (children != null) {
+                for (String child : children) {
+                    boolean success = deleteDir(new File(dir, child));
+                    if (!success) {
+                        return false;
+                    }
                 }
             }
         }
 
         // The directory is now empty so delete it
-        return dir.delete();
+        if (dir != null) {
+            return dir.delete();
+        }
+        return false;
     }
 }

@@ -7,9 +7,9 @@
       <root url="file://$PROJECT_DIR$/../../../../storage-samples-main/FileProvider/.gradle/caches/transforms-3/3aeb9c22f218ec1afa08d617ec750496/transformed/jetified-filament-android-1.17.1/res" />
       <root url="jar://$PROJECT_DIR$/../../../../storage-samples-main/FileProvider/.gradle/caches/transforms-3/3aeb9c22f218ec1afa08d617ec750496/transformed/jetified-filament-android-1.17.1/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../../../../storage-samples-main/FileProvider/.gradle/caches/transforms-3/3aeb9c22f218ec1afa08d617ec750496/transformed/jetified-filament-android-1.17.1/AndroidManifest.xml" />
-      <root url="file://$PROJECT_DIR$/../../../../../storage-samples-main/FileProvider/.gradle/caches/transforms-3/3aeb9c22f218ec1afa08d617ec750496/transformed/jetified-filament-android-1.17.1/res" />
-      <root url="jar://$PROJECT_DIR$/../../../../../storage-samples-main/FileProvider/.gradle/caches/transforms-3/3aeb9c22f218ec1afa08d617ec750496/transformed/jetified-filament-android-1.17.1/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../../../storage-samples-main/FileProvider/.gradle/caches/transforms-3/3aeb9c22f218ec1afa08d617ec750496/transformed/jetified-filament-android-1.17.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1b35e1c313e920d0c5ccd06126740193/transformed/jetified-filament-android-1.17.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1b35e1c313e920d0c5ccd06126740193/transformed/jetified-filament-android-1.17.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1b35e1c313e920d0c5ccd06126740193/transformed/jetified-filament-android-1.17.1/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

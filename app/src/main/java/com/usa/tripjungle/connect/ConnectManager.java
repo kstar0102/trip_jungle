@@ -8,6 +8,7 @@ import com.usa.tripjungle.util.LoginManager;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -53,7 +54,6 @@ public class ConnectManager {
             requestBuilder.post(bodyBuilder.build());
             Request request = requestBuilder.build();
 
-
             Call currentCall = ClientUtil.getTLS12OkHttpClient(mContext).newCall(request);
 
             try {
@@ -61,24 +61,19 @@ public class ConnectManager {
                 if(response.code() == HttpURLConnection.HTTP_NO_CONTENT){
                     Log.w(TAG, "Received a 204 response code from Amazon, is this expected?");
                 }
-                ApiResponse res1 = new ApiResponse();
-                res1.setResponseCode(400);
-                res1.setMessage(response.body().string());
-                callback.onResponse(res1);
-                return;
-//                final List<AvsItem> avsItems = response.code() == HttpURLConnection.HTTP_NO_CONTENT ? null :
-//                        ApiParser.parse(response.body().byteStream(), getBoundary(response));
-//                response.body().close();
-//
-//                if(callback!=null){
-//                    ApiResponse res = new ApiResponse();
-//                    res.setAvsItems(avsItems);
-//                    res.setResponseCode(response.code());
-//                    if(response.code()==204){
-//                        res.setMessage("Received a 204 response code from Amazon");
-//                    }
-//                    callback.onResponse(res);
-//                }
+                final List<AvsItem> avsItems = response.code() == HttpURLConnection.HTTP_NO_CONTENT ? null :
+                        ApiParser.parse(response.body().byteStream(), getBoundary(response));
+                response.body().close();
+
+                if(callback!=null){
+                    ApiResponse res = new ApiResponse();
+                    res.setAvsItems(avsItems);
+                    res.setResponseCode(response.code());
+                    if(response.code()==204){
+                        res.setMessage("Received a 204 response code from Amazon");
+                    }
+                    callback.onResponse(res);
+                }
 
             } catch (IOException exp) {
                 if (!currentCall.isCanceled()) {

@@ -4,17 +4,17 @@
       <root url="file://$PROJECT_DIR$/../../../../storage-samples-main/FileProvider/.gradle/caches/transforms-3/c546c061bd747a9f892a7fbba0fd00d9/transformed/jetified-toggle-1.1.0/res" />
       <root url="file://$PROJECT_DIR$/../../../../storage-samples-main/FileProvider/.gradle/caches/transforms-3/c546c061bd747a9f892a7fbba0fd00d9/transformed/jetified-toggle-1.1.0/AndroidManifest.xml" />
       <root url="jar://$PROJECT_DIR$/../../../../storage-samples-main/FileProvider/.gradle/caches/transforms-3/c546c061bd747a9f892a7fbba0fd00d9/transformed/jetified-toggle-1.1.0/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../../../storage-samples-main/FileProvider/.gradle/caches/transforms-3/c546c061bd747a9f892a7fbba0fd00d9/transformed/jetified-toggle-1.1.0/res" />
-      <root url="file://$PROJECT_DIR$/../../../../../storage-samples-main/FileProvider/.gradle/caches/transforms-3/c546c061bd747a9f892a7fbba0fd00d9/transformed/jetified-toggle-1.1.0/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../../../../../storage-samples-main/FileProvider/.gradle/caches/transforms-3/c546c061bd747a9f892a7fbba0fd00d9/transformed/jetified-toggle-1.1.0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c546c061bd747a9f892a7fbba0fd00d9/transformed/jetified-toggle-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c546c061bd747a9f892a7fbba0fd00d9/transformed/jetified-toggle-1.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c546c061bd747a9f892a7fbba0fd00d9/transformed/jetified-toggle-1.1.0/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../../../../storage-samples-main/FileProvider/.gradle/caches/modules-2/files-2.1/com.github.angads25/toggle/1.1.0/e6d8549c32779295d7ece8733da79f1641a5862b/toggle-1.1.0-javadoc.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../../storage-samples-main/FileProvider/.gradle/caches/modules-2/files-2.1/com.github.angads25/toggle/1.1.0/e6d8549c32779295d7ece8733da79f1641a5862b/toggle-1.1.0-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.angads25/toggle/1.1.0/e6d8549c32779295d7ece8733da79f1641a5862b/toggle-1.1.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/../../../../storage-samples-main/FileProvider/.gradle/caches/modules-2/files-2.1/com.github.angads25/toggle/1.1.0/f14b1f93c3e4a78ce8260d8afbf11785e0334fa4/toggle-1.1.0-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../../storage-samples-main/FileProvider/.gradle/caches/modules-2/files-2.1/com.github.angads25/toggle/1.1.0/f14b1f93c3e4a78ce8260d8afbf11785e0334fa4/toggle-1.1.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.angads25/toggle/1.1.0/f14b1f93c3e4a78ce8260d8afbf11785e0334fa4/toggle-1.1.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
