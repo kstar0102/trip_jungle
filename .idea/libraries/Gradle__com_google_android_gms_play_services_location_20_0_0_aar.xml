@@ -7,10 +7,13 @@
       <root url="file://$PROJECT_DIR$/../../../../storage-samples-main/FileProvider/.gradle/caches/transforms-3/7f5f74ac5b9e2ca9092358052f892ab0/transformed/jetified-play-services-location-20.0.0/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7f5f74ac5b9e2ca9092358052f892ab0/transformed/jetified-play-services-location-20.0.0/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/7f5f74ac5b9e2ca9092358052f892ab0/transformed/jetified-play-services-location-20.0.0/jars/classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../storage-samples-main/FileProvider/.gradle/caches/transforms-3/7f5f74ac5b9e2ca9092358052f892ab0/transformed/jetified-play-services-location-20.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../storage-samples-main/FileProvider/.gradle/caches/transforms-3/7f5f74ac5b9e2ca9092358052f892ab0/transformed/jetified-play-services-location-20.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../../../../storage-samples-main/FileProvider/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-location/20.0.0/cd6ff4a2f2a99f4200e0134f156c0184f6b9467a/play-services-location-20.0.0-javadoc.jar!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-location/20.0.0/cd6ff4a2f2a99f4200e0134f156c0184f6b9467a/play-services-location-20.0.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../storage-samples-main/FileProvider/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-location/20.0.0/cd6ff4a2f2a99f4200e0134f156c0184f6b9467a/play-services-location-20.0.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES />
   </library>

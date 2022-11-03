@@ -7,11 +7,15 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/63821a2174c5bb21fe908d931eada523/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/63821a2174c5bb21fe908d931eada523/transformed/jetified-savedstate-1.2.0/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/63821a2174c5bb21fe908d931eada523/transformed/jetified-savedstate-1.2.0/jars/classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../storage-samples-main/FileProvider/.gradle/caches/transforms-3/63821a2174c5bb21fe908d931eada523/transformed/jetified-savedstate-1.2.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../storage-samples-main/FileProvider/.gradle/caches/transforms-3/63821a2174c5bb21fe908d931eada523/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../../storage-samples-main/FileProvider/.gradle/caches/transforms-3/63821a2174c5bb21fe908d931eada523/transformed/jetified-savedstate-1.2.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/../../../../storage-samples-main/FileProvider/.gradle/caches/modules-2/files-2.1/androidx.savedstate/savedstate/1.2.0/fce79e03fd65c3734d1c9364244456d89d336810/savedstate-1.2.0-sources.jar!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.savedstate/savedstate/1.2.0/fce79e03fd65c3734d1c9364244456d89d336810/savedstate-1.2.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../storage-samples-main/FileProvider/.gradle/caches/modules-2/files-2.1/androidx.savedstate/savedstate/1.2.0/fce79e03fd65c3734d1c9364244456d89d336810/savedstate-1.2.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

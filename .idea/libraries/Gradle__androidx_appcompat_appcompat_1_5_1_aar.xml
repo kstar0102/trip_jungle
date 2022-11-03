@@ -3,6 +3,7 @@
     <ANNOTATIONS>
       <root url="jar://$PROJECT_DIR$/../../../../storage-samples-main/FileProvider/.gradle/caches/transforms-3/1636c1a65c5df54e95cc1a740474747d/transformed/appcompat-1.5.1/annotations.zip!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1636c1a65c5df54e95cc1a740474747d/transformed/appcompat-1.5.1/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../storage-samples-main/FileProvider/.gradle/caches/transforms-3/1636c1a65c5df54e95cc1a740474747d/transformed/appcompat-1.5.1/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/../../../../storage-samples-main/FileProvider/.gradle/caches/transforms-3/1636c1a65c5df54e95cc1a740474747d/transformed/appcompat-1.5.1/AndroidManifest.xml" />
@@ -11,11 +12,15 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1636c1a65c5df54e95cc1a740474747d/transformed/appcompat-1.5.1/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1636c1a65c5df54e95cc1a740474747d/transformed/appcompat-1.5.1/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1636c1a65c5df54e95cc1a740474747d/transformed/appcompat-1.5.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../storage-samples-main/FileProvider/.gradle/caches/transforms-3/1636c1a65c5df54e95cc1a740474747d/transformed/appcompat-1.5.1/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../../storage-samples-main/FileProvider/.gradle/caches/transforms-3/1636c1a65c5df54e95cc1a740474747d/transformed/appcompat-1.5.1/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../../storage-samples-main/FileProvider/.gradle/caches/transforms-3/1636c1a65c5df54e95cc1a740474747d/transformed/appcompat-1.5.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/../../../../storage-samples-main/FileProvider/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.5.1/ffb6d2b7e47daaa4a24b434db111ab9e411c33a0/appcompat-1.5.1-sources.jar!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.5.1/ffb6d2b7e47daaa4a24b434db111ab9e411c33a0/appcompat-1.5.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../storage-samples-main/FileProvider/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.5.1/ffb6d2b7e47daaa4a24b434db111ab9e411c33a0/appcompat-1.5.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

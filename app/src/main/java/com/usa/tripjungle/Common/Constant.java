@@ -1,5 +1,5 @@
 package com.usa.tripjungle.Common;
 
 public class Constant {
-    public static String PRODUCT_ID = "alexa_voice_service_android";
+    public static String PRODUCT_ID = "trip_jungle";
 }
